@@ -1,0 +1,109 @@
+.photo-details {
+    background: url('../../assets/photo-details-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+.photo-details-content {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 43px 20px 0 20px;
+}
+
+.photo-details-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo-details-author {
+    display: flex;
+    align-items: center;
+}
+
+.author-photo {
+    max-width: 55px;
+    max-height: 55px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.author-name {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 100%;
+    margin: 0;
+}
+
+.author-username {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    margin: 0;
+}
+
+.favorite-button {
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    padding: 13px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.download-button {
+    background-color: #FFF200;
+    border: 1px solid #FFF200;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    padding: 12px 23px;
+    cursor: pointer;
+    margin-left: 20px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.download-icon {
+   padding-right: 15px;
+}
+
+.photo-details-preview {
+    margin-top: 44px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+@media (max-width: 767px) {
+    .photo-details {
+        background: none
+    }
+
+    .download-button-text {
+        display: none;
+    }
+
+    .download-icon {
+        padding-right: 0;
+    }
+
+    .author-name {
+        color: #000;
+        font-size: 18px;
+    }
+
+    .author-username {
+        color: #BDBDBD;
+        font-size: 14px;
+    }
+
+    .download-button {
+        padding: 11px;
+    }
+
+    .photo-details-preview {
+        margin-top: 35px;
+    }
+}

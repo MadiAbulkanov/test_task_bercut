@@ -1,0 +1,22 @@
+.favorites-page {
+    padding-top: 94px;
+}
+
+.favorites-page-title {
+    color: black;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .favorites-page {
+        padding-top: 40px;
+    }
+
+    .favorites-page-title {
+        font-size: 36px;
+    }
+}

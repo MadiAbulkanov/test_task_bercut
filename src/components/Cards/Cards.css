@@ -1,0 +1,40 @@
+.cards-container {
+    max-width: 1480px;
+    margin: 0 auto;
+    margin-top: 114px;
+    text-align: center;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-img {
+    border-radius: 8px;
+    width: 473px;
+    height: 440px;
+}
+
+.cards-default-text {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+}
+
+@media (max-width: 1550px) {
+    .cards-container {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .cards-container {
+        gap: 15px;
+        margin-top: 50px;
+    }
+
+    .card-img {
+        width: 334px;
+        height: 311px;
+    }
+}

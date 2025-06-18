@@ -1,0 +1,19 @@
+.search-bar-wrapper {
+    background: url('../../assets/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 178px;
+    width: 100%;
+    padding-top: 92px;
+}
+
+.spinner {
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .search-bar-wrapper {
+        padding-top: 80px;
+    }
+}
